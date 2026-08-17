@@ -52,7 +52,6 @@ Tema/contexto fornecido pelo organizador: ${theme}`;
         systemInstruction: SYSTEM_PROMPT,
         maxOutputTokens: 4096,
         responseMimeType: 'application/json',
-        thinkingConfig: { thinkingBudget: 0 },
       },
     });
 

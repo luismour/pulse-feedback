@@ -123,7 +123,6 @@ export async function POST(req: NextRequest) {
         systemInstruction: SYSTEM_PROMPT,
         maxOutputTokens: 4096,
         responseMimeType: 'application/json',
-        thinkingConfig: { thinkingBudget: 0 },
       },
     });
 
