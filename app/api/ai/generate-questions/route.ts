@@ -3,7 +3,7 @@ import { GoogleGenAI } from '@google/genai';
 import type { AIQuestionSuggestion } from '@/types/database';
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL_NAME = 'gemini-2.5-flash';
+const MODEL_NAME = 'gemini-flash-latest';
 
 const SYSTEM_PROMPT = `Você é um especialista em pesquisa de experiência (UX Research) para eventos presenciais de liderança jovem.
 Gere de 4 a 6 perguntas de feedback objetivas para uma atividade específica.

@@ -3,7 +3,7 @@ import { GoogleGenAI } from '@google/genai';
 import { supabaseServer } from '@/lib/supabaseServer';
 
 const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
-const MODEL_NAME = 'gemini-2.5-flash';
+const MODEL_NAME = 'gemini-flash-latest';
 
 const SYSTEM_PROMPT = `Você é um analista de experiência (UX Research) especializado em eventos presenciais de liderança jovem.
 Você vai receber as respostas brutas de um formulário de feedback de UMA atividade específica e deve produzir um relatório executivo.
